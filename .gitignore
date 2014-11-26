@@ -6,6 +6,7 @@
 *.idea
 *.checkstyle
 target/
+output/
 bin/
 atlassian-ide-plugin.xml
 *.sonar-ide.properties

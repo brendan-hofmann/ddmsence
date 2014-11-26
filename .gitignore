@@ -1,0 +1,13 @@
+*.project
+*.settings
+*.classpath
+*.metadata
+*.iml
+*.idea
+*.checkstyle
+target/
+bin/
+atlassian-ide-plugin.xml
+*.sonar-ide.properties
+test/maven-soapui/dib_install
+*.DS_Store

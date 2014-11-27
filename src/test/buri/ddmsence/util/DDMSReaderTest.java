@@ -110,7 +110,7 @@ public class DDMSReaderTest extends AbstractBaseTestCase {
 			fail("Allowed invalid data.");
 		}
 		catch (IOException e) {
-			expectMessage(e, "doesnotexist (The system cannot find the file specified)");
+			expectMessage(e, "doesnotexist (No such file or directory)");
 		}
 	}
 
@@ -135,7 +135,7 @@ public class DDMSReaderTest extends AbstractBaseTestCase {
 			fail("Allowed invalid data.");
 		}
 		catch (IOException e) {
-			expectMessage(e, "doesnotexist (The system cannot find the file specified)");
+			expectMessage(e, "doesnotexist (No such file or directory)");
 		}
 	}
 
@@ -146,7 +146,7 @@ public class DDMSReaderTest extends AbstractBaseTestCase {
 			fail("Allowed invalid data.");
 		}
 		catch (IOException e) {
-			expectMessage(e, "doesnotexist (The system cannot find the file specified)");
+			expectMessage(e, "doesnotexist (No such file or directory)");
 		}
 	}
 
